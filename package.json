@@ -9,6 +9,8 @@
   },
   "main": "aspen-link-field.js",
   "dependencies": {
+    "@polymer/font-roboto": "^3.0.2",
+    "@polymer/iron-flex-layout": "^3.0.1",
     "@polymer/iron-icons": "^3.0.1",
     "@polymer/polymer": "^3.0.0"
   },

@@ -1,6 +1,6 @@
-import { PolymerElement, html } from '/node_modules/@polymer/polymer/polymer-element.js';
+import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
-import { AspenLinkFieldMixin } from './aspen-link-field-mixin'
+import { AspenLinkFieldMixin } from './aspen-link-field-mixin.js'
 import './aspen-field-wrapper.js'
 
 /**
@@ -21,7 +21,7 @@ class AspenLinkField extends AspenLinkFieldMixin(PolymerElement) {
 			    }
         </style>
         
-		<aspen-field-wrapper name="[[label]]">
+		<aspen-field-wrapper label = [[label]] icon ="[[icon]]" name="[[label]]">
 			<div>
 				<a href="[[url]]" target="_blank">[[id]]</a>
 			</div>

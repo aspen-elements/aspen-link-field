@@ -2,10 +2,8 @@ import { PolymerElement,html } from '@polymer/polymer/polymer-element.js';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 import { AspenFieldMixin } from './aspen-field-mixin.js';
 import '@polymer/iron-icons/iron-icons.js'
-
-
-import '/node_modules/@polymer/iron-flex-layout/iron-flex-layout.js';
-import '/node_modules/@polymer/font-roboto/roboto.js';
+import '@polymer/iron-flex-layout/iron-flex-layout.js';
+import '@polymer/font-roboto/roboto.js';
 /**
  * `asp-fld-wrapper` This component is a simple text field with an optional associated icon.
  *

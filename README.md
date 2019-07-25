@@ -1,6 +1,7 @@
-# \<aspen-link-field\>
+# <aspen-link-field\>
 
-
+This component  displays the ID, and allows the user to edit it. An icon to the left of the field allows the user to
+navigate to the appropriate page.
 
 ## Install the Polymer-CLI
 
