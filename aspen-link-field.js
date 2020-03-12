@@ -1,6 +1,6 @@
 import { PolymerElement, html } from "@polymer/polymer/polymer-element.js";
 import { afterNextRender } from "@polymer/polymer/lib/utils/render-status.js";
-import { AspenLinkFldMixin } from "./aspen-link-field-mixin.js";
+import { AspenLinkFieldMixin } from "./aspen-link-field-mixin.js";
 import "./aspen-field-wrapper.js";
 
 /**
@@ -11,7 +11,7 @@ import "./aspen-field-wrapper.js";
  * @polymer
  * @extends {Polymer.Element}
  */
-class AspenLinkField extends AspenLinkFldMixin(PolymerElement) {
+class AspenLinkField extends AspenLinkFieldMixin(PolymerElement) {
   static get template() {
     return html`
       <style>

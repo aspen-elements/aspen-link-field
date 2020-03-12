@@ -6,7 +6,7 @@
  * @polymerMixin
  * @mixinFunction
  */
-export const AspenLinkFldMixin = superclass =>
+export const AspenLinkFieldMixin = superclass =>
   class extends superclass {
     /**
      * Object describing property-related metadata used by Polymer features

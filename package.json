@@ -19,7 +19,7 @@
     "@webcomponents/webcomponentsjs": "^2.0.0"
   },
   "description": "Displays the ID, and allows user to edit it",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "directories": {
     "test": "test"
   },
